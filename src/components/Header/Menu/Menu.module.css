@@ -1,19 +1,21 @@
-#menu a {
-  text-decoration: none;
-  color: white;
-}
-#menu {
+.menu {
   width: 100%;
   background: #222;
   display: flex;
   align-items: center;
   color: white;
 }
-.menu_title {
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
   padding: 0 15px;
   font-size: 1.5em;
 }
-.menu_main {
+.main {
   position: relative;
   list-style: none;
   font-weight: 400;
@@ -23,7 +25,7 @@
   padding: 0;
   text-align: center;
 }
-.menu_main li {
+.main li {
   font-size: 0.8rem;
   display: inline-block;
   position: relative;
@@ -37,7 +39,7 @@ li {
   margin: 0;
 }
 
-.menu_drop {
+.drop {
   overflow: hidden;
   list-style: none;
   position: absolute;
@@ -46,7 +48,7 @@ li {
   left: 0;
   top: 48px;
 }
-.menu_drop div {
+.drop div {
   -webkit-transform: translate(0, -100%);
   -moz-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
@@ -57,7 +59,7 @@ li {
   transition: all 0.5s 0.1s;
   position: relative;
 }
-.menu_drop li {
+.drop li {
   /* display: block; */
   display: flex;
   flex-direction: column;
@@ -69,11 +71,11 @@ li {
   background: #222;
   border-bottom: 1px solid white;
 }
-.menu_drop li:hover{
+.drop li:hover{
   background-color: #5ba1d3;
   color: black;
 }
-.menu_marker {
+.marker {
   height: 6px;
   background: #5ba1d3;
   position: absolute;
@@ -86,64 +88,64 @@ li {
   transition: all 0.35s;
 }
 
-.menu_main li:nth-child(1):hover ul div {
+.main li:nth-child(1):hover ul div {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.menu_main li:nth-child(1):hover ~ .menu_marker {
+.main li:nth-child(1):hover ~ .marker {
   -webkit-transform: translate(0px, 0);
   -moz-transform: translate(0px, 0);
   -ms-transform: translate(0px, 0);
   transform: translate(0px, 0);
 }
 
-.menu_main li:nth-child(2):hover ul div {
+.main li:nth-child(2):hover ul div {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.menu_main li:nth-child(2):hover ~ .menu_marker {
+.main li:nth-child(2):hover ~ .marker {
   -webkit-transform: translate(120px, 0);
   -moz-transform: translate(120px, 0);
   -ms-transform: translate(120px, 0);
   transform: translate(120px, 0);
 }
 
-.menu_main li:nth-child(3):hover ul div {
+.main li:nth-child(3):hover ul div {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.menu_main li:nth-child(3):hover ~ .menu_marker {
+.main li:nth-child(3):hover ~ .marker {
   -webkit-transform: translate(240px, 0);
   -moz-transform: translate(240px, 0);
   -ms-transform: translate(240px, 0);
   transform: translate(240px, 0);
 }
 
-.menu_main li:nth-child(4):hover ul div {
+.main li:nth-child(4):hover ul div {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.menu_main li:nth-child(4):hover ~ .menu_marker {
+.main li:nth-child(4):hover ~ .marker {
   -webkit-transform: translate(360px, 0);
   -moz-transform: translate(360px, 0);
   -ms-transform: translate(360px, 0);
   transform: translate(360px, 0);
 }
-.menu_main li:nth-child(5):hover ul div {
+.main li:nth-child(5):hover ul div {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
-.menu_main li:nth-child(5):hover ~ .menu_marker {
+.main li:nth-child(5):hover ~ .marker {
   -webkit-transform: translate(480px, 0);
   -moz-transform: translate(480px, 0);
   -ms-transform: translate(480px, 0);
