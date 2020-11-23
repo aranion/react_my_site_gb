@@ -1,11 +1,8 @@
 // import React from 'react';
 import "./App.css";
-import Guess from "./components/Content/Guess/Guess";
-import Main from "./components/Content/Main/Main";
 import Footer from "./components/Footer/Footer";
 import Menu from "./components/Header/Menu/Menu";
-import Puzzle from "./components/Content/Puzzle/Puzzle";
-import GuessPvP from "./components/GuessPvP/GuessPvP";
+import Main from "./components/Content/Main/Main";
 
 const App = () => {
   return (
@@ -13,9 +10,6 @@ const App = () => {
       <div className="content">
         <Menu/>
         <Main/>
-        <Puzzle/>
-        <Guess/>
-        <GuessPvP/>
       </div>
       <Footer/>
     </div>

@@ -13,15 +13,12 @@
 }
 
 .info {
-  color: #242424;
   font-size: 24px;
   font-weight: 100;
   margin-left: 0px;
   text-align: center;
-  width: 100%;
   word-wrap: break-word;
   margin-bottom: 20px;
-  max-height: 200px;
 }
 
 .box h5 {
